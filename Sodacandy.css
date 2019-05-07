@@ -1,0 +1,40 @@
+*{
+  background-color:lightpink;
+}
+ body{
+   margin-left: 2%;
+   margin-right: 2%;
+   word-spacing: 3px;
+   font-family: "Times New Roman" Times, serif
+}
+.header{
+  color:yellow;
+  text-align: center;
+  text-shadow: 3px 2px black;
+  font-size: 90px;
+}
+
+/*Nav-bar*/
+.bookmarks {
+  list-style-type:none;
+  text-align:center;}
+
+*{box-sizing: border-box;}
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
